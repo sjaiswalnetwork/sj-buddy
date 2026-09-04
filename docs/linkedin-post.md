@@ -1,7 +1,7 @@
 # LinkedIn post kit for SJ Buddy
 
 **Images:** attach `linkedin-1.png` and `linkedin-2.png` (LinkedIn shows them as a two-image carousel).
-**Links go in the FIRST COMMENT**, not the post body. LinkedIn shows posts containing outside links to fewer people.
+**Links are inside the post body**, as requested.
 **Optional follow-up post:** upload `SJ Buddy - Guide.pdf` as a *Document* post a few days later. LinkedIn turns PDFs into a swipeable carousel.
 
 GitHub: https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
@@ -36,7 +36,14 @@ The build is the part that got me:
 
 Then I said "give every character 50 more lines" and it came back in minutes.
 
-Free for everyone. Links in the comments 👇
+Free for everyone 👇
+
+DOWNLOAD (Windows 10/11, no installation)
+GitHub: https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
+Google Drive: https://drive.google.com/file/d/1SGSwMQ-sH4FaVpN3f-oPuL_y9j58v6hq/view?usp=sharing
+
+Extract the zip, double-click SJ Buddy.exe, pick your character.
+If Windows says "protected your PC", click More info, then Run anyway. It is unsigned, and the full source is on GitHub.
 
 Made by SJ.
 
@@ -44,25 +51,7 @@ Made by SJ.
 
 ---
 
-## FIRST COMMENT (paste right after posting)
-
-Free download, Windows 10/11, no installation:
-
-GitHub: https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
-Google Drive: https://drive.google.com/file/d/1SGSwMQ-sH4FaVpN3f-oPuL_y9j58v6hq/view?usp=sharing
-
-How to run it:
-1. Download the zip from either link
-2. Right-click it, choose Extract All
-3. Double-click SJ Buddy.exe
-4. If Windows says "protected your PC", click More info, then Run anyway (the app is unsigned, the full source is on GitHub)
-5. Pick your character and go
-
-Source code: https://github.com/sjaiswalnetwork/sj-buddy
-
----
-
-## EVEN SHORTER (if you want a one-screen post)
+## EVEN SHORTER (one-screen version)
 
 One prompt. Seven screenshots. Two hours.
 
@@ -74,9 +63,26 @@ Fable researched the characters, drew all five in code, built the learning logic
 
 ~4,000 lines of C#. 990 dialogue lines. One session.
 
-Free for everyone. Links in the comments 👇 Made by SJ.
+Free, Windows 10/11, no installation 👇
+GitHub: https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
+Drive: https://drive.google.com/file/d/1SGSwMQ-sH4FaVpN3f-oPuL_y9j58v6hq/view?usp=sharing
+
+Made by SJ.
 
 #Claude #ClaudeCode #AI #BuildInPublic #Windows
+
+---
+
+## OPTIONAL FIRST COMMENT (adds detail without cluttering the post)
+
+How it works once it is running:
+
+- Left-click it to talk, double-click to pet it, drag to move it anywhere
+- Right-click for the menu: change character, rename, language, water interval, size
+- Ctrl+Alt+B hides and shows it, and it can start with Windows
+- It learns your routine and levels up from Newbie to Desktop Ka Raja
+
+Source code and a PDF guide: https://github.com/sjaiswalnetwork/sj-buddy
 
 ---
 
