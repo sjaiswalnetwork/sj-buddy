@@ -1,0 +1,3 @@
+# build output and test screenshots (the release zip is attached to GitHub Releases instead)
+dist/
+*.log

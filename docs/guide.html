@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SJ Buddy - Guide</title>
+<style>
+  @page { size: A4; margin: 16mm 16mm 18mm 16mm; }
+  body { font-family: "Segoe UI", "Nirmala UI", Arial, sans-serif; color: #26262e; font-size: 11pt; line-height: 1.45; margin: 0; }
+  h1 { font-size: 28pt; margin: 0 0 4px 0; color: #1e3c78; letter-spacing: -0.5px; }
+  h2 { font-size: 15pt; color: #1e3c78; border-bottom: 2px solid #dfe6f5; padding-bottom: 4px; margin: 22px 0 10px 0; page-break-after: avoid; }
+  .tag { display: inline-block; background: #1e5bd8; color: #fff; font-weight: 700; border-radius: 8px; padding: 2px 10px; font-size: 10pt; margin-left: 6px; vertical-align: middle; }
+  .sub { color: #5d6275; font-size: 12pt; margin: 0 0 14px 0; }
+  .hero { display: flex; gap: 18px; align-items: center; background: #f2f6ff; border: 1px solid #d9e3fa; border-radius: 14px; padding: 14px 18px; }
+  .hero img { width: 100%; border-radius: 10px; }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 4px 0; }
+  td, th { border: 1px solid #e3e6ef; padding: 6px 9px; vertical-align: top; text-align: left; }
+  th { background: #f4f6fb; width: 30%; }
+  code, .mono { font-family: Consolas, "Courier New", monospace; background: #f4f5f9; padding: 1px 5px; border-radius: 4px; font-size: 10pt; }
+  .steps li { margin-bottom: 6px; }
+  .note { background: #fff8e6; border: 1px solid #f3dfa6; border-radius: 10px; padding: 10px 14px; margin: 10px 0; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 22px; }
+  .card { border: 1px solid #e3e6ef; border-radius: 10px; padding: 10px 14px; page-break-inside: avoid; }
+  .card b { color: #1e3c78; }
+  .footer { margin-top: 26px; color: #7a7f92; font-size: 9.5pt; border-top: 1px solid #e3e6ef; padding-top: 8px; }
+  .sheet { page-break-before: always; }
+  .sheet img { width: 100%; border: 1px solid #e3e6ef; border-radius: 8px; }
+  ul { margin: 4px 0 8px 0; padding-left: 20px; }
+</style>
+</head>
+<body>
+
+<h1>SJ Buddy <span class="tag">Made by SJ</span></h1>
+<p class="sub">Your desktop toon companion - Shinchan, SpongeBob, Doraemon, Jethalal and Bhide on your screen. Reacts when you type, reminds you to drink water, learns your routine, and jokes in English, Hindi and Hinglish.</p>
+
+<div class="hero">
+  <img src="hero.png" alt="SJ Buddy on the desktop">
+</div>
+
+<h2>Get it running in 30 seconds</h2>
+<ol class="steps">
+  <li><b>Extract the zip</b> anywhere - your Desktop is fine. You only need the file <span class="mono">SJ Buddy.exe</span>; the other files are the guide and the source code.</li>
+  <li><b>Double-click <span class="mono">SJ Buddy.exe</span>.</b> No installation, no internet, nothing to download. Works on Windows 10 and 11.</li>
+  <li>If Windows shows <i>"Windows protected your PC"</i>, click <b>More info</b> and then <b>Run anyway</b>. The app is brand new and unsigned, so SmartScreen is cautious. It is completely offline and its full source code is included. If an antivirus quarantines it, choose "Restore / Allow" - it is a false positive on a small unsigned program.</li>
+  <li><b>Pick your character</b>, give it a name, type your own name, choose the water interval and tick <b>Start with Windows</b> if you want it there every morning. Click <b>Let's go!</b></li>
+</ol>
+
+<h2>Controls</h2>
+<table>
+  <tr><th>Left-click the buddy</th><td>It talks and reacts. During a water reminder a click means "I drank" and logs a sip.</td></tr>
+  <tr><th>Double-click</th><td>Pet it. It loves that (and remembers).</td></tr>
+  <tr><th>Drag</th><td>Move it anywhere on the screen. Its position is remembered.</td></tr>
+  <tr><th>Right-click</th><td>The full menu: talk, pet, log water, fun actions, change character, rename, language, water interval, talkativeness, size, settings, start with Windows, always on top, sounds, wander, break reminders, stats, about, hide, exit.</td></tr>
+  <tr><th>Move the mouse</th><td>Its eyes follow the cursor and it leans toward it. Hover over it and it blushes and says hello. Zoom the mouse past it and it flinches.</td></tr>
+  <tr><th>Tray icon (near the clock)</th><td>Left-click shows the buddy, right-click opens the same menu, double-click hides / shows it. Water reminders also appear as Windows notifications while it is hidden.</td></tr>
+  <tr><th>Ctrl + Alt + B</th><td>Hide / show the buddy from anywhere.</td></tr>
+  <tr><th>Close it</th><td>Right-click &rarr; Exit (or from the tray icon). To keep it in the tray instead, choose Hide.</td></tr>
+</table>
+
+<h2>What it does on its own</h2>
+<div class="grid">
+  <div class="card"><b>Reacts to typing and to the mouse</b><br>Opens its little laptop and types along when you really type (a stray key or mouse scrolling does not fool it), cheers when you type fast (compared with <i>your</i> usual speed), follows the cursor with its eyes, rests with calm eyes when you pause, sleeps with Zzz when you are away, and welcomes you back.</div>
+  <div class="card"><b>Water reminders</b><br>Every 30 minutes by default (15 to 90, or off). Waits if you are away, nudges again if you ignore it, gets serious if you keep ignoring it. Tracks sips per day, average, best day and streak.</div>
+  <div class="card"><b>Random actions</b><br>Blinks, looks around, yawns, stretches, waves, jumps, dances, spins (and gets dizzy), walks along the taskbar, sneezes, laughs, thinks, eats its favourite food, peeks, sings, exercises, checks its phone - plus character specials: Doraemon's bamboo copter, Anywhere Door and mouse panic; SpongeBob's jellyfishing, patty flipping and bubbles; Shinchan's buri-buri dance, Chocobi, Action Kamen and Shiro; Jethalal's chai, garba and "Hey Maa Mataji!"; Bhide's scooter Sakharam, tuition board, society register and Madhavi's achar.</div>
+  <div class="card"><b>Talks in character</b><br>Over 900 lines (about 180 per character, each in English, Hindi and Hinglish, or a mix): greetings by time of day, typing reactions, water lines, click, pet and hover reactions, punchlines, caring lines on bad days, festival wishes (Holi, Diwali, Ganesh Chaturthi, Republic Day, Independence Day, Children's Day, Christmas, New Year) and your birthday.</div>
+  <div class="card"><b>Learns your routine</b><br>Usual start and end of your day, lunch hour, peak hours, normal typing speed, longest sessions, late nights, how fast you answer reminders, and how chatty you like it. Click a line you like and it does more of those; hide it right after a line and it learns to talk less.</div>
+  <div class="card"><b>Levels up</b><br>XP from sips (+10), pets (+3), clicks (+2), typing minutes (+1) and breaks (+5). Titles go from Newbie to Buddy, Yaar, Pakka Dost, Jigri Dost, Bestie, Parivaar, Legend, Guru and Desktop Ka Raja. See everything under <i>Stats and what I learned</i>.</div>
+</div>
+
+<h2>Privacy</h2>
+<p>It never records <i>what</i> you type. To know that you are typing it only checks whether typing keys are currently pressed and counts the presses; nothing is stored, logged or sent anywhere. There is no keyboard hook, no internet access and no account. Its only files are <span class="mono">settings.txt</span> and <span class="mono">brain.txt</span> in <span class="mono">%APPDATA%\SJ Buddy</span>. Delete that folder to reset everything.</p>
+
+<h2>Add your own lines</h2>
+<p>Create a text file named <span class="mono">my-lines.txt</span> next to <span class="mono">SJ Buddy.exe</span> (or in <span class="mono">%APPDATA%\SJ Buddy</span>). One entry per line:</p>
+<p><code>character|category|english|hindi|hinglish</code></p>
+<ul>
+  <li>character: <span class="mono">shinchan</span>, <span class="mono">spongebob</span>, <span class="mono">doraemon</span>, <span class="mono">jethalal</span>, <span class="mono">bhide</span> or <span class="mono">*</span> for all</li>
+  <li>category: <span class="mono">quip</span>, <span class="mono">care</span>, <span class="mono">wisdom</span>, <span class="mono">water</span>, <span class="mono">water_ack</span>, <span class="mono">water_nag</span>, <span class="mono">click</span>, <span class="mono">pet</span>, <span class="mono">greet_morning</span>, <span class="mono">greet_afternoon</span>, <span class="mono">greet_evening</span>, <span class="mono">greet_night</span>, <span class="mono">typing_start</span>, <span class="mono">typing_fast</span>, <span class="mono">idle_short</span>, <span class="mono">lunch</span>, <span class="mono">late_night</span> ...</li>
+  <li>Placeholders you can use: <span class="mono">{name}</span> (the buddy), <span class="mono">{user}</span> (you), <span class="mono">{sips}</span>, <span class="mono">{streak}</span>, <span class="mono">{level}</span></li>
+</ul>
+<p>Example: <code>jethalal|quip|Bapuji is watching. Work!|बापूजी देख रहे हैं। काम करो!|Bapuji dekh rahe hain. Kaam karo!</code></p>
+
+<h2>Extras</h2>
+<table>
+  <tr><th><span class="mono">"SJ Buddy.exe" --settings</span></th><td>Opens the Settings window (also works while it is already running).</td></tr>
+  <tr><th><span class="mono">"SJ Buddy.exe" --stats</span></th><td>Opens the Stats window.</td></tr>
+  <tr><th>Pendrive mode</th><td>Put an empty file named <span class="mono">portable.txt</span> next to the exe and it keeps its settings next to the exe instead of in %APPDATA%.</td></tr>
+  <tr><th>Rebuild from source</th><td>Run <span class="mono">build.bat</span> in the <span class="mono">source</span> folder. It needs only Windows itself (the C# compiler that ships with .NET Framework 4.x).</td></tr>
+</table>
+
+<div class="note"><b>Tip:</b> the first day it knows nothing about you. After two or three days it will greet you at your usual start time, notice when you work later than usual, and suggest lunch around the time you actually take it.</div>
+
+<p class="footer">Characters belong to their respective creators; this is a fan-made companion for personal use. SJ Buddy 1.0 - Made by SJ.</p>
+
+<div class="sheet">
+  <h2>All five characters and some of their poses</h2>
+  <img src="sheet.png" alt="Character sheet">
+</div>
+
+</body>
+</html>
