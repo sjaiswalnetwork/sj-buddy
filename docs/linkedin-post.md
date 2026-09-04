@@ -1,72 +1,89 @@
 # LinkedIn post kit for SJ Buddy
 
-Attach **linkedin-1.png** and **linkedin-2.png** as the post images (LinkedIn shows them as a two-image carousel).
-Put the download link in the **first comment** (LinkedIn shows link posts to fewer people) and edit the post to say "link in comments" once the comment is up.
-Optional second post a few days later: upload **SJ Buddy - Guide.pdf** as a *Document* post; LinkedIn turns PDFs into a swipeable carousel.
+**Images:** attach `linkedin-1.png` and `linkedin-2.png` (LinkedIn shows them as a two-image carousel).
+**Links go in the FIRST COMMENT**, not the post body. LinkedIn shows posts containing outside links to fewer people.
+**Optional follow-up post:** upload `SJ Buddy - Guide.pdf` as a *Document* post a few days later. LinkedIn turns PDFs into a swipeable carousel.
 
-**LIVE download link:** https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
-**Project page:** https://github.com/sjaiswalnetwork/sj-buddy
+GitHub: https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
+Google Drive: https://drive.google.com/file/d/1SGSwMQ-sH4FaVpN3f-oPuL_y9j58v6hq/view?usp=sharing
+Project page: https://github.com/sjaiswalnetwork/sj-buddy
+
+Both links verified working for people who are not signed in.
 
 ---
 
-## Main post (about 2,200 characters)
+## MAIN POST (use this one)
 
-I gave an AI one prompt and 7 screenshots. Two hours later, this little guy was sitting on my taskbar. 🤖💧
+I gave Claude Fable 5.1 one prompt and 7 screenshots.
 
-Meet SJ Buddy: a free desktop pet for Windows that reacts when you type, reminds you to drink water every 30 minutes, learns your routine, and cracks jokes in Hindi, English and Hinglish.
+Two hours later, Shinchan was living on my taskbar. 🤖
 
-Five characters: Shinchan, SpongeBob, Doraemon, Jethalal and Bhide. Yes, Bhide rides Sakharam across your taskbar. Yes, Jethalal says "Hey Maa Mataji!" when you ignore your water.
+SJ Buddy is a free desktop pet for Windows. It types along when you type, reminds you to drink water every 30 minutes, and jokes with you in Hindi, English and Hinglish.
 
-What amazed me was HOW it got built, with Claude Fable 5.1 (Anthropic's newest model) inside Claude Code:
+Five characters: Shinchan, SpongeBob, Doraemon, Jethalal, Bhide.
+Bhide rides Sakharam across your taskbar. Jethalal yells "Hey Maa Mataji!" when you skip your water.
 
-🔍 It researched all five characters first (catchphrases, running gags, rivalries) so the lines actually sound like them.
-🎨 No image files anywhere. It DREW every character in code: eyes, mouths, arms, a laptop, a water glass, a bamboo copter, a scooter, a chalkboard.
-🧠 It designed a "brain" that learns your day: usual start time, lunch hour, typing speed, how chatty you like it, how fast you answer reminders. Rule-based, fully offline, nothing leaves the PC.
-🧪 It ran the app, took its own screenshots, spotted layout bugs on my 125% DPI screen and fixed them.
-🛡️ When McAfee flagged a tiny helper file, it rebuilt the pipeline so no helper exe exists and removed the keyboard hook entirely.
-📦 It packaged everything: one 320 KB exe, a PDF guide, and the full source with a one-click build script.
+The build is the part that got me:
 
-The numbers: about 4,000 lines of C#, 990 dialogue entries (each in 3 languages), 5 characters, 40+ animations, compiled with the compiler that ships inside Windows, so it runs on any Windows 10/11 PC with zero installation.
+→ It researched all five characters so the lines actually sound like them
+→ It drew every character in code. Zero image files.
+→ It built a brain that learns my start time, lunch hour and typing speed
+→ It ran the app, screenshotted itself, found DPI bugs, fixed them
+→ It killed an antivirus false positive on its own
+→ It shipped a 320 KB exe, a PDF guide and the full source
 
-Then I asked for changes ("remove the logo", "it treats my mouse like typing", "give every character 50+ lines") and each came back working in minutes.
+~4,000 lines of C#. 990 dialogue lines. 3 languages. One session.
 
-It's free and anyone can use it. Download link in the first comment 👇
-Extract the zip, double-click SJ Buddy.exe, pick your character. If Windows says "protected your PC", click More info, then Run anyway (it's unsigned; the source is included).
+Then I said "give every character 50 more lines" and it came back in minutes.
+
+Free for everyone. Links in the comments 👇
 
 Made by SJ.
 
-#Claude #Anthropic #ClaudeCode #AI #BuildInPublic #DesktopPet #Productivity #CSharp #Windows #Doraemon #Shinchan #SpongeBob #TMKOC
+#Claude #ClaudeCode #Anthropic #AI #BuildInPublic #Windows #DesktopPet
 
 ---
 
-## First comment (paste right after posting)
+## FIRST COMMENT (paste right after posting)
 
-Download SJ Buddy, free, Windows 10/11, no install:
-https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
+Free download, Windows 10/11, no installation:
 
-Source code and guide: https://github.com/sjaiswalnetwork/sj-buddy
+GitHub: https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
+Google Drive: https://drive.google.com/file/d/1SGSwMQ-sH4FaVpN3f-oPuL_y9j58v6hq/view?usp=sharing
 
-Extract the zip, double-click SJ Buddy.exe, pick your character. If Windows shows "protected your PC": More info, then Run anyway (the app is unsigned; the full source is in the repo).
+How to run it:
+1. Download the zip from either link
+2. Right-click it, choose Extract All
+3. Double-click SJ Buddy.exe
+4. If Windows says "protected your PC", click More info, then Run anyway (the app is unsigned, the full source is on GitHub)
+5. Pick your character and go
+
+Source code: https://github.com/sjaiswalnetwork/sj-buddy
 
 ---
 
-## Short version (about 700 characters)
+## EVEN SHORTER (if you want a one-screen post)
 
-One prompt, 7 screenshots, 2 hours. Claude Fable 5.1 built me a desktop pet from scratch. 🤖💧
+One prompt. Seven screenshots. Two hours.
 
-SJ Buddy sits above your taskbar as Shinchan, SpongeBob, Doraemon, Jethalal or Bhide. It types along when you type, reminds you to drink water, learns your routine, and jokes in Hindi, English and Hinglish.
+Claude Fable 5.1 built me a desktop pet from scratch. 🤖
 
-Fable researched the characters, drew all five in code (no image files), designed the learning logic, tested it with its own screenshots, fixed an antivirus false positive, and packaged a single 320 KB exe with a PDF guide. About 4,000 lines of C# and 990 dialogue lines.
+Shinchan, SpongeBob, Doraemon, Jethalal or Bhide sits on your taskbar, types along when you type, reminds you to drink water, and jokes in Hindi, English and Hinglish.
 
-Free for anyone. Link in the first comment. Made by SJ.
+Fable researched the characters, drew all five in code, built the learning logic, tested itself with its own screenshots, and shipped a 320 KB exe with a PDF guide.
+
+~4,000 lines of C#. 990 dialogue lines. One session.
+
+Free for everyone. Links in the comments 👇 Made by SJ.
 
 #Claude #ClaudeCode #AI #BuildInPublic #Windows
 
 ---
 
-## Reply templates for common comments
+## REPLY TEMPLATES for common comments
 
-- "Is it safe?" -> It's fully offline, has no keyboard hook, never records what you type, and the complete source code is on GitHub so anyone can read it or rebuild the exe with build.bat. SmartScreen warns only because it's unsigned.
-- "Mac / Linux?" -> Windows only for now (it's a WinForms app). The source is open if someone wants to port it.
-- "Can I add my own jokes?" -> Yes: create my-lines.txt next to the exe. Format and categories are in the README.
-- "Which model / tool?" -> Claude Fable 5.1 inside Claude Code, on my own Windows laptop. It wrote, built, ran and screenshot-tested the app itself.
+- **"Is it safe?"** → Fully offline, no keyboard hook, never records what you type. The complete source is on GitHub so anyone can read it or rebuild the exe with build.bat. SmartScreen warns only because it is unsigned.
+- **"Mac / Linux?"** → Windows only for now, it is a WinForms app. Source is open if someone wants to port it.
+- **"Can I add my own jokes?"** → Yes, create my-lines.txt next to the exe. Format and categories are in the README.
+- **"Which model / tool?"** → Claude Fable 5.1 inside Claude Code, running on my own Windows laptop. It wrote, built, ran and screenshot-tested the app itself.
+- **"Can you add <character>?"** → The characters are drawn in code, so new ones are doable. Drop a name and I will look at it.
