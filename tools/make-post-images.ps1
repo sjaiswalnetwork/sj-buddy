@@ -90,7 +90,7 @@ $sheet = [System.Drawing.Image]::FromFile((Join-Path $docs "sheet.png"))
 Card $g 40 290 1120 330 ([System.Drawing.Color]::White) ([System.Drawing.Color]::FromArgb(215, 222, 240))
 $names = @("Shinchan", "SpongeBob", "Doraemon", "Jethalal", "Bhide")
 for ($i = 0; $i -lt 5; $i++) {
-    $src = New-Object System.Drawing.Rectangle 0, ($i * 330 + 20), 230, 300
+    $src = New-Object System.Drawing.Rectangle 0, ($i * 330 + 30), 230, 300
     $dx = 60 + $i * 218; $dw = 200; $dh = 261
     $g.DrawImage($sheet, (New-Object System.Drawing.Rectangle $dx, 304, $dw, $dh), $src, [System.Drawing.GraphicsUnit]::Pixel)
     Txt $g $names[$i] ($dx + $dw / 2) 572 26 $ink $true "c" 0
@@ -107,7 +107,7 @@ Txt $g "Notices you, reacts to typing and the mouse" 886 992 24 $grey $false "c"
 
 Card $g 40 1036 1120 128 $navy $null
 Txt $g "Built end-to-end by Claude Fable 5.1 inside Claude Code" 600 1050 34 ([System.Drawing.Color]::White) $true "c" 0
-Txt $g "~4,000 lines of C#   -   5 characters drawn in code   -   990 lines of dialogue in English, Hindi and Hinglish   -   learns your routine" 600 1102 22 ([System.Drawing.Color]::FromArgb(200, 214, 245)) $false "c" 1080
+Txt $g "~4,000 lines of C#   -   5 characters drawn in code   -   990 dialogue lines in English, Hindi and Hinglish" 600 1104 24 ([System.Drawing.Color]::FromArgb(200, 214, 245)) $false "c" 0
 $bmp.Save((Join-Path $docs "linkedin-1.png"), [System.Drawing.Imaging.ImageFormat]::Png)
 $g.Dispose(); $bmp.Dispose()
 
