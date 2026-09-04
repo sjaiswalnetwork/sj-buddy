@@ -4,8 +4,8 @@ Attach **linkedin-1.png** and **linkedin-2.png** as the post images (LinkedIn sh
 Put the download link in the **first comment** (LinkedIn shows link posts to fewer people) and edit the post to say "link in comments" once the comment is up.
 Optional second post a few days later: upload **SJ Buddy - Guide.pdf** as a *Document* post; LinkedIn turns PDFs into a swipeable carousel.
 
-Download link (live after you run `tools\publish.ps1`): https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
-Project page: https://github.com/sjaiswalnetwork/sj-buddy
+**LIVE download link:** https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
+**Project page:** https://github.com/sjaiswalnetwork/sj-buddy
 
 ---
 
@@ -41,9 +41,12 @@ Made by SJ.
 
 ## First comment (paste right after posting)
 
-Download SJ Buddy (free, Windows 10/11, no install): https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
+Download SJ Buddy, free, Windows 10/11, no install:
+https://github.com/sjaiswalnetwork/sj-buddy/releases/latest/download/SJ-Buddy-v1.0.zip
+
 Source code and guide: https://github.com/sjaiswalnetwork/sj-buddy
-Extract, double-click SJ Buddy.exe, pick your character. If Windows shows "protected your PC": More info, then Run anyway.
+
+Extract the zip, double-click SJ Buddy.exe, pick your character. If Windows shows "protected your PC": More info, then Run anyway (the app is unsigned; the full source is in the repo).
 
 ---
 
