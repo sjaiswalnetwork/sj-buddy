@@ -22,8 +22,7 @@ $Repo = "$owner/$RepoName"
 
 if (-not (Test-Path "$root\dist\SJ-Buddy-v1.0.zip")) { throw "dist\SJ-Buddy-v1.0.zip is missing. Run tools\package.ps1 first." }
 
-$ErrorActionPreference = "Continue"
-& $gh repo view $Repo --json name 2>&1 | Out-Null
+& $gh repo view $Repo --json name 2>$null | Out-Null
 if ($LASTEXITCODE -ne 0) {
     Write-Host "Creating public repository $Repo ..."
     & $gh repo create $Repo --public --source . --remote origin --push --description "SJ Buddy: desktop toon companion for Windows (Shinchan, SpongeBob, Doraemon, Jethalal, Bhide). Made by SJ, built with Claude Fable 5.1."
@@ -34,9 +33,7 @@ if ($LASTEXITCODE -ne 0) {
     if ($LASTEXITCODE -ne 0) { throw "push failed" }
 }
 
-# "release not found" arrives on stderr; keep PowerShell from treating that as a terminating error.
-$ErrorActionPreference = "Continue"
-& $gh release view $Tag --repo $Repo 2>&1 | Out-Null
+& $gh release view $Tag --repo $Repo 2>$null | Out-Null
 if ($LASTEXITCODE -eq 0) {
     Write-Host "Release $Tag already exists; uploading assets (overwriting)..."
     & $gh release upload $Tag "dist\SJ-Buddy-v1.0.zip" "docs\SJ Buddy - Guide.pdf" --repo $Repo --clobber
