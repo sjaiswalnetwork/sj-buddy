@@ -1,3 +1,5 @@
+<p align="center"><img src=".github/banner.svg" width="100%" alt="sj-buddy banner" /></p>
+
 # SJ Buddy
 
 **Your desktop toon companion for Windows.** Shinchan, SpongeBob, Doraemon, Jethalal or Bhide sits above your taskbar, reacts when you type, reminds you to drink water, learns your daily routine, and cracks jokes in English, Hindi and Hinglish.
